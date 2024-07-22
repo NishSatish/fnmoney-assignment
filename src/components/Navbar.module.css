@@ -19,9 +19,7 @@
 }
 
 .navLinks {
-  flex: 2;
   display: flex;
-  justify-content: center;
 }
 
 .navLink {
@@ -32,7 +30,7 @@
 }
 
 .navLogin {
-  flex: 1; /* Takes up remaining space */
+  flex: 1;
   display: flex;
   justify-content: flex-end;
 }
@@ -48,13 +46,63 @@
   text-transform: uppercase;
 }
 
-.loginButton a {
-
-  text-decoration: none !important;
-}
-
 .loginButton:hover {
   background-color: #c84429;
   transition: 0.5s;
 }
 
+.navToggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: background-color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .navToggle {
+    display: block;
+    margin-left: 20px;
+  }
+
+  .navLinks {
+    position: absolute;
+    top: 60px; /* Adjust based on navbar height */
+    right: 20px; /* Adjust based on navbar padding */
+    background-color: #1b1b2b;
+    width: 200px; /* Adjust width as needed */
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+  }
+
+  .navLinks.open {
+    max-height: 300px; /* Adjust height as needed */
+  }
+
+  .navLink {
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .navToggle.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .navToggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navToggle.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

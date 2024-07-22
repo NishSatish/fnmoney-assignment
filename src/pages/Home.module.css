@@ -1,5 +1,5 @@
 .hero {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url('../../assets/img/hero.png');
   background-size: cover;
   background-position: center;
@@ -9,6 +9,7 @@
   flex-direction: column;
   color: white;
   gap: 40px;
+  /* padding-top: 40px; */
 }
 
 .heading {
@@ -35,4 +36,15 @@
   display: flex;
   flex-direction: row;
   gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .activities {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero {
+    padding: 40px
+  }
 }

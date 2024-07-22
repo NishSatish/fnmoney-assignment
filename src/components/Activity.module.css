@@ -34,3 +34,9 @@
   font-family: Montserrat;
   border-radius: 17px;
 }
+
+@media (max-width: 768px) {
+  .box {
+    width: 250px;
+  }
+}

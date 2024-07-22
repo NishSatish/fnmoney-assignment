@@ -32,11 +32,14 @@
 }
 
 .form {
-  background-color: #fff;
+  background-color: #1b1b2b;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   margin-bottom: 20px;
+  color: #ccc;
+  text-align: center;
+  padding-right: 30px;
 }
 
 .form h2 {
@@ -54,12 +57,14 @@
   font-size: 1rem;
   border: 1px solid #ccc;
   border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 8px;
 }
 
 .form button {
   padding: 10px 20px;
   border: none;
-  background-color: #007bff;
+  background-color: #8fb4e3;
   color: #fff;
   font-size: 1rem;
   border-radius: 4px;

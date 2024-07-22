@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Activity from '../components/Activity';
 import Navbar from '../components/Navbar';
 import styles from './Home.module.css';
@@ -33,7 +34,11 @@ const Home = () => {
         </div>
 
         <div className={styles.cta}>
-          <button>get started</button>
+        <Link to={'/login'}>
+          <button className={styles.loginButton}>
+            Get Started
+          </button>
+        </Link>
         </div>
 
         <div className={styles.activities}>
