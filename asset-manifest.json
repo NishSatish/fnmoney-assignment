@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/fnmoney-assignment/static/css/main.c4ded938.css",
-    "main.js": "/fnmoney-assignment/static/js/main.5f5500bc.js",
+    "main.css": "/fnmoney-assignment/static/css/main.915efaf6.css",
+    "main.js": "/fnmoney-assignment/static/js/main.59ca77dd.js",
     "static/js/453.62596a7a.chunk.js": "/fnmoney-assignment/static/js/453.62596a7a.chunk.js",
     "static/media/hero.png": "/fnmoney-assignment/static/media/hero.d59378ace1184531244d.png",
     "static/media/Montserrat-VariableFont_wght.ttf": "/fnmoney-assignment/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/BebasNeue-Regular.ttf": "/fnmoney-assignment/static/media/BebasNeue-Regular.9aa03f9d52866893add5.ttf",
     "index.html": "/fnmoney-assignment/index.html",
-    "main.c4ded938.css.map": "/fnmoney-assignment/static/css/main.c4ded938.css.map",
-    "main.5f5500bc.js.map": "/fnmoney-assignment/static/js/main.5f5500bc.js.map",
+    "main.915efaf6.css.map": "/fnmoney-assignment/static/css/main.915efaf6.css.map",
+    "main.59ca77dd.js.map": "/fnmoney-assignment/static/js/main.59ca77dd.js.map",
     "453.62596a7a.chunk.js.map": "/fnmoney-assignment/static/js/453.62596a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4ded938.css",
-    "static/js/main.5f5500bc.js"
+    "static/css/main.915efaf6.css",
+    "static/js/main.59ca77dd.js"
   ]
 }
