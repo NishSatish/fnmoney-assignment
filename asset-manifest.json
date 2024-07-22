@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.5592e80d.css",
-    "main.js": "/static/js/main.22221290.js",
-    "static/js/453.62596a7a.chunk.js": "/static/js/453.62596a7a.chunk.js",
-    "static/media/hero.png": "/static/media/hero.d59378ace1184531244d.png",
-    "static/media/Montserrat-VariableFont_wght.ttf": "/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
-    "static/media/BebasNeue-Regular.ttf": "/static/media/BebasNeue-Regular.9aa03f9d52866893add5.ttf",
-    "index.html": "/index.html",
-    "main.5592e80d.css.map": "/static/css/main.5592e80d.css.map",
-    "main.22221290.js.map": "/static/js/main.22221290.js.map",
-    "453.62596a7a.chunk.js.map": "/static/js/453.62596a7a.chunk.js.map"
+    "main.css": "/fnmoney-assignment/static/css/main.c4ded938.css",
+    "main.js": "/fnmoney-assignment/static/js/main.44a6ee2b.js",
+    "static/js/453.62596a7a.chunk.js": "/fnmoney-assignment/static/js/453.62596a7a.chunk.js",
+    "static/media/hero.png": "/fnmoney-assignment/static/media/hero.d59378ace1184531244d.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/fnmoney-assignment/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/BebasNeue-Regular.ttf": "/fnmoney-assignment/static/media/BebasNeue-Regular.9aa03f9d52866893add5.ttf",
+    "index.html": "/fnmoney-assignment/index.html",
+    "main.c4ded938.css.map": "/fnmoney-assignment/static/css/main.c4ded938.css.map",
+    "main.44a6ee2b.js.map": "/fnmoney-assignment/static/js/main.44a6ee2b.js.map",
+    "453.62596a7a.chunk.js.map": "/fnmoney-assignment/static/js/453.62596a7a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5592e80d.css",
-    "static/js/main.22221290.js"
+    "static/css/main.c4ded938.css",
+    "static/js/main.44a6ee2b.js"
   ]
 }
