@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1b1b2b;
+  color: white;
+}
+
+.navbarBrand {
+  flex: 1;
+  font-family: Bebas;
+}
+
+.navbarBrand a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+.navLinks {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.navLink {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-family: Montserrat;
+}
+
+.navLogin {
+  flex: 1; /* Takes up remaining space */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.loginButton {
+  padding: 8px 16px;
+  background-color: #8fb4e3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.loginButton a {
+
+  text-decoration: none !important;
+}
+
+.loginButton:hover {
+  background-color: #c84429;
+  transition: 0.5s;
+}
+
