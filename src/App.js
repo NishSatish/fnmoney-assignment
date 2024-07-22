@@ -13,7 +13,9 @@ const router = createBrowserRouter([
     path: "/login",
     element: <LoginPage />
   }
-]);
+], {
+  basename: '/fnmoney-assignment'
+});
 function App() {
   return (
     <div>
