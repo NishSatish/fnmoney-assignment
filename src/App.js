@@ -1,7 +1,6 @@
 import './App.css';
-import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import { createBrowserRouter, RouterProvider, BrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import LoginPage from './pages/Login';
 
 const router = createBrowserRouter([
@@ -14,7 +13,7 @@ const router = createBrowserRouter([
     element: <LoginPage />
   }
 ], {
-  basename: '/fnmoney-assignment'
+  basename: '/'
 });
 function App() {
   return (

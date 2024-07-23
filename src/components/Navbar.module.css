@@ -64,6 +64,10 @@
   transition: background-color 0.3s ease;
 }
 
+.signout {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .navToggle {
     display: block;

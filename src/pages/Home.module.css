@@ -38,6 +38,13 @@
   gap: 30px;
 }
 
+.uname {
+  font-family: Bebas;
+  text-align: center;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 @media (max-width: 768px) {
   .activities {
     flex-direction: column;

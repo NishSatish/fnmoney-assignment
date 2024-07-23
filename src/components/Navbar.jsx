@@ -1,13 +1,25 @@
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 import styles from './Navbar.module.css';
 
 const Navbar = () => {
+  const navigate = useNavigate();
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    if (localStorage.getItem("token")) {
+      setIsLoggedIn(true)
+    }
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  const signoutHandler = () => {
+    localStorage.clear();
+    navigate('/login');
+  }
 
   return (
     <nav className={styles.navbar}>
@@ -21,11 +33,18 @@ const Navbar = () => {
         <Link to="#" className={styles.navLink}>Contact</Link>
       </div>
       <div className={styles.navLogin}>
-        <Link to={'/login'}>
-          <button className={styles.loginButton}>
-            Login
-          </button>
-        </Link>
+      {
+            isLoggedIn &&
+            <div className={styles.signout} onClick={signoutHandler}>Signout</div>
+          }
+          {
+            !isLoggedIn &&
+            <Link to={'/login'}>
+              <button className={styles.loginButton}>
+                Get Started
+              </button>
+            </Link>
+          }
       </div>
       <div className={styles.navToggle} onClick={toggleMenu}>
         <div className={styles.bar}></div>
